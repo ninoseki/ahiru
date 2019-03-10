@@ -1,0 +1,655 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://duckduckgo.com/html/?q=hoge
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - duckduckgo.com
+      User-Agent:
+      - http.rb/4.0.5
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 10 Mar 2019 13:31:39 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Server-Timing:
+      - total;dur=48;desc="Backend Total"
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Security-Policy:
+      - 'default-src https: blob: data: ''unsafe-inline'' ''unsafe-eval''; frame-ancestors
+        ''self'''
+      X-Xss-Protection:
+      - 1;mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin
+      Expect-Ct:
+      - max-age=0
+      Expires:
+      - Sun, 10 Mar 2019 13:31:40 GMT
+      Cache-Control:
+      - max-age=1
+      X-Duckduckgo-Locale:
+      - en_US
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<!--[if
+        IE 6]><html class=\"ie6\" xmlns=\"http://www.w3.org/1999/xhtml\"><![endif]-->\n<!--[if
+        IE 7]><html class=\"lt-ie8 lt-ie9\" xmlns=\"http://www.w3.org/1999/xhtml\"><![endif]-->\n<!--[if
+        IE 8]><html class=\"lt-ie9\" xmlns=\"http://www.w3.org/1999/xhtml\"><![endif]-->\n<!--[if
+        gt IE 8]><!--><html xmlns=\"http://www.w3.org/1999/xhtml\"><!--<![endif]-->\n<head>\n
+        \ <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n
+        \ <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,
+        maximum-scale=3.0, user-scalable=1\" />\n  <meta name=\"referrer\" content=\"origin\"
+        />\n  <meta name=\"HandheldFriendly\" content=\"true\" />\n  <meta name=\"robots\"
+        content=\"noindex, nofollow\" />\n  <title>hoge at DuckDuckGo</title>\n  <link
+        title=\"DuckDuckGo (HTML)\" type=\"application/opensearchdescription+xml\"
+        rel=\"search\" href=\"/opensearch_html.xml\" />\n  <link href=\"/favicon.ico\"
+        rel=\"shortcut icon\" />\n  <link rel=\"apple-touch-icon\" href=\"/assets/logo_icon128.v101.png\"/>\n
+        \ <link rel=\"image_src\" href=\"/assets/logo_homepage.normal.v101.png\"/>
+        \ \n  <link type=\"text/css\" media=\"handheld, all\" href=\"/h1747.css\"
+        rel=\"stylesheet\" />\n</head>\n\n<body class=\"body--html\">\n  <a name=\"top\"
+        id=\"top\"></a>\n\n  <form action=\"/html/\" method=\"post\">\n    <input
+        type=\"text\" name=\"state_hidden\" id=\"state_hidden\" />\n  </form>\n\n
+        \ <div>\n    <div class=\"site-wrapper-border\"></div>\n\n    <div id=\"header\"
+        class=\"header cw header--html\">\n        <a title=\"DuckDuckGo\" href=\"/html/\"
+        class=\"header__logo-wrap\"></a>\n\n\n    <form name=\"x\" class=\"header__form\"
+        action=\"/html/\" method=\"post\">\n\n      <div class=\"search search--header\">\n
+        \         <input name=\"q\" autocomplete=\"off\" class=\"search__input\" id=\"search_form_input_homepage\"
+        type=\"text\" value=\"hoge\" />\n          <input name=\"b\" id=\"search_button_homepage\"
+        class=\"search__button search__button--html\" value=\"\" title=\"Search\"
+        alt=\"Search\" type=\"submit\" />\n      </div>\n\n\n        \n        \n
+        \       \n        \n        \n\n    \n    \n      <input name=\"kl\" value=\"us-en\"
+        type=\"hidden\" />\n        \n        \n    </form>\n\n    </div>\n\n\n\n\n\n<!--
+        Web results are present -->\n\n  <div>\n  <div class=\"serp__results\">\n
+        \ <div id=\"links\" class=\"results\">\n\n      \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2F\"><b>Hoge</b>
+        Auctioneering</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/hogeauctioneering.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2F\">\n
+        \                 hogeauctioneering.com\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2F\">Online
+        Only Pallet Auction- Tuesday, March 5th - 7PM. 5675 Hwy 13, Coggon, IA 52218.
+        Click here to View Tuesday, March 5th Auction! Click here to BID on March
+        5th Online Only Auction!</a>\n            \n\n            <div style=\"clear:
+        both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fhoge.com%2F\"><b>Hoge</b>
+        Lumber Company - New Knoxville, Ohio</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fhoge.com%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/hoge.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fhoge.com%2F\">\n
+        \                 hoge.com\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fhoge.com%2F\">Utility
+        Buildings. <b>Hoge</b> utility buildings can be constructed for a variety
+        of uses, such as agricultural farm buildings, livestock / confinement buildings,
+        office buildings, storage buildings, machine shops, retail stores, and other
+        commercial uses.</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHoge\"><b>Hoge</b>
+        - Wikipedia</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/en.wikipedia.org.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHoge\">\n
+        \                 en.wikipedia.org/wiki/Hoge\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHoge\">This
+        disambiguation page lists articles associated with the title <b>Hoge</b>.
+        If an internal link led you here, you may wish to change the link to point
+        directly to the intended article.</a>\n            \n\n            <div style=\"clear:
+        both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Facronyms.thefreedictionary.com%2FHOGE\"><b>HOGE</b>
+        - What does <b>HOGE</b> stand for? The Free Dictionary</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Facronyms.thefreedictionary.com%2FHOGE\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/acronyms.thefreedictionary.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Facronyms.thefreedictionary.com%2FHOGE\">\n
+        \                 acronyms.thefreedictionary.com/HOGE\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Facronyms.thefreedictionary.com%2FHOGE\">Brinkbaumer
+        and <b>Hoges</b> (both with Der Spiegel magazine, Germany) combine an account
+        of Columbus&#x27; last voyage to the New World with a description of the recent
+        investigation of the shipwreck.</a>\n            \n\n            <div style=\"clear:
+        both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fm.youtube.com%2Fuser%2Fajhoge\">A.J.
+        <b>Hoge</b> - YouTube</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fm.youtube.com%2Fuser%2Fajhoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/m.youtube.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fm.youtube.com%2Fuser%2Fajhoge\">\n
+        \                 m.youtube.com/user/ajhoge\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fm.youtube.com%2Fuser%2Fajhoge\">The
+        Effortless English Youtube Channel of A.J. <b>Hoge</b>. AJ is known as the
+        #1 English teacher in the world. He is famous for creating powerful English
+        speakers ...</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2Fauction%2Dlisting%2D1%2F\">Auction</a>\n
+        \         \n          </h2>\n\n      \n\n            <div class=\"result__extras\">\n
+        \               <div class=\"result__extras__url\">\n                  <span
+        class=\"result__icon\">\n                    \n                      <a rel=\"nofollow\"
+        href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2Fauction%2Dlisting%2D1%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/hogeauctioneering.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2Fauction%2Dlisting%2D1%2F\">\n
+        \                 hogeauctioneering.com/auction-listing-1/\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fhogeauctioneering.com%2Fauction%2Dlisting%2D1%2F\">Terms:
+        Cash or good check day of the sale.Credit card accepted w/4% convenience fee.
+        Iowa sales tax will apply to purchase made. <b>Hoge</b> Auctioneering is not
+        responsible for theft or accident.</a>\n            \n\n            <div style=\"clear:
+        both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dhoge\">Urban
+        Dictionary: <b>hoge</b></a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dhoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.urbandictionary.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dhoge\">\n
+        \                 www.urbandictionary.com/define.php?term=hoge\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dhoge\">&quot;Lets
+        say you like Ice cream right?, so you just took a bite of the most delicious
+        ice cream ever tasted. if the &quot;ice cream&quot; tasted nice, you will
+        say &quot;<b>Høge</b>&quot;. so when something, someone somehow feels good/nice
+        you will say: &quot;<b>Høge</b>, this ice cream tasted so good&quot;.</a>\n
+        \           \n\n            <div style=\"clear: both\"></div>\n          </div>\n\n
+        \       </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links
+        results_links_deep web-result \">\n\n\n          <div class=\"links_main links_deep
+        result__body\"> <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwgnradio.com%2F2019%2F02%2F05%2Fhoge%2D2019%2Dbears%2Dmock%2Ddraft%2D1%2D0%2F\"><b>Hoge</b>:
+        2019 Bears Mock Draft 1.0 | WGN Radio - 720 AM</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwgnradio.com%2F2019%2F02%2F05%2Fhoge%2D2019%2Dbears%2Dmock%2Ddraft%2D1%2D0%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/wgnradio.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwgnradio.com%2F2019%2F02%2F05%2Fhoge%2D2019%2Dbears%2Dmock%2Ddraft%2D1%2D0%2F\">\n
+        \                 wgnradio.com/2019/02/05/hoge-2019-bears-mock-draft-1-0/\n
+        \                 </a>\n\n                  \n\n                </div>\n            </div>\n\n
+        \           \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwgnradio.com%2F2019%2F02%2F05%2Fhoge%2D2019%2Dbears%2Dmock%2Ddraft%2D1%2D0%2F\">3rd
+        Round, No. 24 — RB Devin Singletary, Florida Atlantic (5-9, 200) Between the
+        early Kareem Hunt discussion and the insistence on using Taquan Mizzell in
+        the offense, it sure seems like Matt Nagy thinks there is a missing piece
+        in his backfield.</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2F\">Welcome to Hogue</a>\n
+        \         \n          </h2>\n\n      \n\n            <div class=\"result__extras\">\n
+        \               <div class=\"result__extras__url\">\n                  <span
+        class=\"result__icon\">\n                    \n                      <a rel=\"nofollow\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2F\">\n                        <img
+        class=\"result__icon__img\" width=\"16\" height=\"16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.hogueinc.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2F\">\n
+        \                 www.hogueinc.com\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2F\">Welcome
+        to Hogue, Inc., home to a proud family tradition of American quality and innovation
+        since 1968. Every Hogue product — from handgun grips to long gun stocks to
+        specialty knives to gear and accessories — is built in the spirit of fine
+        craftsmanship, attention to detail and complete dedication to the legacy of
+        founder Guy Hogue, carried into the next generation by his sons Aaron and
+        ...</a>\n            \n\n            <div style=\"clear: both\"></div>\n          </div>\n\n
+        \       </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links
+        results_links_deep web-result \">\n\n\n          <div class=\"links_main links_deep
+        result__body\"> <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWill_Hoge\">Will
+        <b>Hoge</b> - Wikipedia</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWill_Hoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/en.wikipedia.org.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWill_Hoge\">\n
+        \                 en.wikipedia.org/wiki/Will_Hoge\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWill_Hoge\">Will
+        <b>Hoge</b> (born November 14, 1972) is an American Americana country music
+        singer, songwriter, and musician from Nashville, Tennessee, United States.</a>\n
+        \           \n\n            <div style=\"clear: both\"></div>\n          </div>\n\n
+        \       </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links
+        results_links_deep web-result \">\n\n\n          <div class=\"links_main links_deep
+        result__body\"> <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.ihg.com%2Farmyhotels%2Fhotels%2Fus%2Fen%2Ffort%2Dleavenworth%2Fmfvwa%2Fhoteldetail\">Holiday
+        Inn Express=Military <b>Hoge</b> Hall Hotel by IHG</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.ihg.com%2Farmyhotels%2Fhotels%2Fus%2Fen%2Ffort%2Dleavenworth%2Fmfvwa%2Fhoteldetail\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.ihg.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.ihg.com%2Farmyhotels%2Fhotels%2Fus%2Fen%2Ffort%2Dleavenworth%2Fmfvwa%2Fhoteldetail\">\n
+        \                 www.ihg.com/armyhotels/hotels/us/en/fort-leavenworth/mfvwa/hoteldetail\n
+        \                 </a>\n\n                  \n\n                </div>\n            </div>\n\n
+        \           \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.ihg.com%2Farmyhotels%2Fhotels%2Fus%2Fen%2Ffort%2Dleavenworth%2Fmfvwa%2Fhoteldetail\">The
+        check in desk for Ft. Leavenworth hotels is located in <b>Hoge</b> Hall, Building
+        695. Please check in at <b>Hoge</b> Hall. Benefit from the Great Features
+        at Fort Leavenworth</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Feffortlessenglishclub.com%2F\">Learn
+        To Speak English Powerfully With Effortless English</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Feffortlessenglishclub.com%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/effortlessenglishclub.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Feffortlessenglishclub.com%2F\">\n
+        \                 effortlessenglishclub.com\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Feffortlessenglishclub.com%2F\">Hi,
+        I&#x27;m AJ <b>Hoge</b>. the author of &quot;Effortless English: Learn To
+        Speak Like A Native&quot; host of &quot;The Effortless English Show&quot;
+        with over 40 million downloads worldwide. trainer of corporate leaders, government
+        officials, and most importantly people like you to speak English successfully.</a>\n
+        \           \n\n            <div style=\"clear: both\"></div>\n          </div>\n\n
+        \       </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links
+        results_links_deep web-result \">\n\n\n          <div class=\"links_main links_deep
+        result__body\"> <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2FWillHoge\">Will
+        <b>Hoge</b> (@WillHoge) | Twitter</a>\n          \n          </h2>\n\n      \n\n
+        \           <div class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2FWillHoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/twitter.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2FWillHoge\">\n
+        \                 twitter.com/WillHoge\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2FWillHoge\">Trying
+        to compile a list of everyone that&#x27;s ever been in my band for at least
+        one show over the years. Damn. Help!pic.twitter.com/p4NeHRkGrS</a>\n            \n\n
+        \           <div style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n
+        \ \n\n\n\n  \n\n\n            <div class=\"result results_links results_links_deep
+        web-result \">\n\n\n          <div class=\"links_main links_deep result__body\">
+        <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.willhoge.com%2F\">Will
+        <b>Hoge</b></a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.willhoge.com%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.willhoge.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.willhoge.com%2F\">\n
+        \                 www.willhoge.com\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.willhoge.com%2F\">MY
+        AMERICAN DREAM ... &quot;Will <b>Hoge</b> didn&#x27;t really need to release
+        a new album in 2018. His most recent, Anchors, came out last August, reaching
+        No. 6 on Billboard Heatseekers and the Top 20 on the Indie chart.</a>\n            \n\n
+        \           <div style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n
+        \ \n\n\n\n  \n\n\n            <div class=\"result results_links results_links_deep
+        web-result \">\n\n\n          <div class=\"links_main links_deep result__body\">
+        <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.estatesale.com%2Fcompanies%2Fview%2F8828%2FHoge%2DAuctioneering.html\"><b>Hoge</b>
+        Auctioneering-Coggon-Iowa Upcoming Sales - Estate Sale</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.estatesale.com%2Fcompanies%2Fview%2F8828%2FHoge%2DAuctioneering.html\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.estatesale.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.estatesale.com%2Fcompanies%2Fview%2F8828%2FHoge%2DAuctioneering.html\">\n
+        \                 www.estatesale.com/companies/view/8828/Hoge-Auctioneering.html\n
+        \                 </a>\n\n                  \n\n                </div>\n            </div>\n\n
+        \           \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.estatesale.com%2Fcompanies%2Fview%2F8828%2FHoge%2DAuctioneering.html\"><b>Hoge</b>
+        Auctioneering is an estate sale company located in Coggon,Iowa.<b>Hoge</b>
+        Auctioneering features professionally conducted estate sales and liquidations.</a>\n
+        \           \n\n            <div style=\"clear: both\"></div>\n          </div>\n\n
+        \       </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links
+        results_links_deep web-result \">\n\n\n          <div class=\"links_main links_deep
+        result__body\"> <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2Fproducts\">Hogue
+        Products</a>\n          \n          </h2>\n\n      \n\n            <div class=\"result__extras\">\n
+        \               <div class=\"result__extras__url\">\n                  <span
+        class=\"result__icon\">\n                    \n                      <a rel=\"nofollow\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2Fproducts\">\n                        <img
+        class=\"result__icon__img\" width=\"16\" height=\"16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.hogueinc.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2Fproducts\">\n
+        \                 www.hogueinc.com/products\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogueinc.com%2Fproducts\">Welcome
+        to Hogue, Inc., home to a proud family tradition of American quality and innovation
+        since 1968. Every Hogue product — from handgun grips to long gun stocks to
+        specialty knives to gear and accessories — is built in the spirit of fine
+        craftsmanship, attention to detail and complete dedication to the legacy of
+        founder Guy Hogue, carried into the next generation by his sons Aaron and
+        ...</a>\n            \n\n            <div style=\"clear: both\"></div>\n          </div>\n\n
+        \       </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links
+        results_links_deep web-result \">\n\n\n          <div class=\"links_main links_deep
+        result__body\"> <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2Fwillhoge\">Will
+        <b>Hoge</b> - Home | Facebook</a>\n          \n          </h2>\n\n      \n\n
+        \           <div class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2Fwillhoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.facebook.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2Fwillhoge\">\n
+        \                 www.facebook.com/willhoge\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2Fwillhoge\">Will
+        <b>Hoge</b>. 39,833 likes · 635 talking about this. You can have &quot;Gilded
+        Walls&quot; AND pre-order the new album My American Dream by simply clicking
+        here:...</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.definitions.net%2Fdefinition%2Fhoge\">What
+        does <b>hoge</b> mean? - Definitions.net</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.definitions.net%2Fdefinition%2Fhoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.definitions.net.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.definitions.net%2Fdefinition%2Fhoge\">\n
+        \                 www.definitions.net/definition/hoge\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.definitions.net%2Fdefinition%2Fhoge\">Suggested
+        Resources (0.00 / 0 votes) Rate this definition:. <b>HOGE</b>. What does <b>HOGE</b>
+        stand for?-- Explore the various meanings for the <b>HOGE</b> acronym on the
+        Abbreviations.com website.</a>\n            \n\n            <div style=\"clear:
+        both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2Fhogepp\"><b>hoge</b>
+        (@hogepp) | Twitter</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2Fhogepp\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/twitter.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2Fhogepp\">\n
+        \                 twitter.com/hogepp\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Ftwitter.com%2Fhogepp\">The
+        latest Tweets from <b>hoge</b> (@hogepp). 映画、海外ドラマ好き。その他（ジョジョ、SW、競馬、パグetc.)腐女子です。※現在南インド映画にハマり中。★CPは雑食ですので固定派の方はご注意下さい!
+        ♡いんど映画関連裏垢（cp混在） ＠hogeu4. TOKYO</a>\n            \n\n            <div style=\"clear:
+        both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711%2D53200%2D19255%2D0%2F1%3Ficep_ff3%3D9%26pub%3D5574933636%26toolid%3D10001%26campid%3D5336728181%26customid%3D%26icep_uq%3Dhoge%26icep_sellerId%3D%26icep_ex_kw%3D%26icep_sortBy%3D12%26icep_catId%3D%26icep_minPrice%3D%26icep_maxPrice%3D%26ipn%3Dpsmain%26icep_vectorid%3D229466%26kwid%3D902099%26mtid%3D824%26kw%3Dlg\"><b>hoge</b>
+        | eBay</a>\n          \n          </h2>\n\n      \n\n            <div class=\"result__extras\">\n
+        \               <div class=\"result__extras__url\">\n                  <span
+        class=\"result__icon\">\n                    \n                      <a rel=\"nofollow\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711%2D53200%2D19255%2D0%2F1%3Ficep_ff3%3D9%26pub%3D5574933636%26toolid%3D10001%26campid%3D5336728181%26customid%3D%26icep_uq%3Dhoge%26icep_sellerId%3D%26icep_ex_kw%3D%26icep_sortBy%3D12%26icep_catId%3D%26icep_minPrice%3D%26icep_maxPrice%3D%26ipn%3Dpsmain%26icep_vectorid%3D229466%26kwid%3D902099%26mtid%3D824%26kw%3Dlg\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/rover.ebay.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711%2D53200%2D19255%2D0%2F1%3Ficep_ff3%3D9%26pub%3D5574933636%26toolid%3D10001%26campid%3D5336728181%26customid%3D%26icep_uq%3Dhoge%26icep_sellerId%3D%26icep_ex_kw%3D%26icep_sortBy%3D12%26icep_catId%3D%26icep_minPrice%3D%26icep_maxPrice%3D%26ipn%3Dpsmain%26icep_vectorid%3D229466%26kwid%3D902099%26mtid%3D824%26kw%3Dlg\">\n
+        \                 rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=9&amp;pub=5574933636&amp;toolid=10001&amp;campid=5336728181&amp;customid=&amp;icep_uq=hoge&amp;icep_sellerId=&amp;icep_ex_kw=&amp;icep_sortBy=12&amp;icep_catId=&amp;icep_minPrice=&amp;icep_maxPrice=&amp;ipn=psmain&amp;icep_vectorid=229466&amp;kwid=902099&amp;mtid=824&amp;kw=lg\n
+        \                 </a>\n\n                  \n\n                </div>\n            </div>\n\n
+        \           \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711%2D53200%2D19255%2D0%2F1%3Ficep_ff3%3D9%26pub%3D5574933636%26toolid%3D10001%26campid%3D5336728181%26customid%3D%26icep_uq%3Dhoge%26icep_sellerId%3D%26icep_ex_kw%3D%26icep_sortBy%3D12%26icep_catId%3D%26icep_minPrice%3D%26icep_maxPrice%3D%26ipn%3Dpsmain%26icep_vectorid%3D229466%26kwid%3D902099%26mtid%3D824%26kw%3Dlg\">Find
+        great deals on eBay for <b>hoge</b>. Shop with confidence. Skip to main content.
+        eBay Logo: Shop by category. ... MERRIL <b>HOGE</b> 1991 FLEER ULTRA Autographed
+        Signed FOOTBALL Card 112 STEELERS See more like this. 1992 Topps Football
+        Card #757 Merril <b>Hoge</b>.</a>\n            \n\n            <div style=\"clear:
+        both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div
+        class=\"result results_links results_links_deep web-result \">\n\n\n          <div
+        class=\"links_main links_deep result__body\"> <!-- This is the visible part
+        -->\n\n          <h2 class=\"result__title\">\n          \n            <a
+        rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogefenton.com%2F\">California
+        Law Firm | <b>Hoge</b> Fenton</a>\n          \n          </h2>\n\n      \n\n
+        \           <div class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogefenton.com%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.hogefenton.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogefenton.com%2F\">\n
+        \                 www.hogefenton.com\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.hogefenton.com%2F\"><b>Hoge</b>
+        Fenton is a multi-service law firm committed to delivering top-tier legal
+        services to businesses and private clients.</a>\n            \n\n            <div
+        style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n
+        \ \n\n\n            <div class=\"result results_links results_links_deep web-result
+        \">\n\n\n          <div class=\"links_main links_deep result__body\"> <!--
+        This is the visible part -->\n\n          <h2 class=\"result__title\">\n          \n
+        \           <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.discogs.com%2Fartist%2F1555858%2DWill%2DHoge\">Will
+        <b>Hoge</b> | Discography &amp; Songs | Discogs</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.discogs.com%2Fartist%2F1555858%2DWill%2DHoge\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.discogs.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.discogs.com%2Fartist%2F1555858%2DWill%2DHoge\">\n
+        \                 www.discogs.com/artist/1555858-Will-Hoge\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.discogs.com%2Fartist%2F1555858%2DWill%2DHoge\">Explore
+        releases and tracks from Will <b>Hoge</b> at Discogs. Shop for Vinyl, CDs
+        and more from Will <b>Hoge</b> at the Discogs Marketplace.</a>\n            \n\n
+        \           <div style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n
+        \ \n\n\n\n  \n\n\n            <div class=\"result results_links results_links_deep
+        web-result \">\n\n\n          <div class=\"links_main links_deep result__body\">
+        <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Ftime.com%2F4476035%2Frobert%2Dhoge%2Dadvice%2F\">Robert
+        <b>Hoge</b>: 5 Things I&#x27;ve Learned From Being &#x27;Ugly&#x27; | Time</a>\n
+        \         \n          </h2>\n\n      \n\n            <div class=\"result__extras\">\n
+        \               <div class=\"result__extras__url\">\n                  <span
+        class=\"result__icon\">\n                    \n                      <a rel=\"nofollow\"
+        href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Ftime.com%2F4476035%2Frobert%2Dhoge%2Dadvice%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/time.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Ftime.com%2F4476035%2Frobert%2Dhoge%2Dadvice%2F\">\n
+        \                 time.com/4476035/robert-hoge-advice/\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Ftime.com%2F4476035%2Frobert%2Dhoge%2Dadvice%2F\">The
+        first response I get when I tell people I&#x27;m ugly is often gentle, well-meaning
+        disagreement. &quot;No you&#x27;re not, you&#x27;re just… different&quot;
+        and, &quot;everyone is beautiful in their own way ...</a>\n            \n\n
+        \           <div style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n
+        \ \n\n\n\n  \n\n\n            <div class=\"result results_links results_links_deep
+        web-result \">\n\n\n          <div class=\"links_main links_deep result__body\">
+        <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmembers.hog.com%2FHOG%2FHDMN_RenewLogin%3FPublicAccess%3Dtrue\">HOG
+        Renew Login</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmembers.hog.com%2FHOG%2FHDMN_RenewLogin%3FPublicAccess%3Dtrue\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/members.hog.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmembers.hog.com%2FHOG%2FHDMN_RenewLogin%3FPublicAccess%3Dtrue\">\n
+        \                 members.hog.com/HOG/HDMN_RenewLogin?PublicAccess=true\n
+        \                 </a>\n\n                  \n\n                </div>\n            </div>\n\n
+        \           \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmembers.hog.com%2FHOG%2FHDMN_RenewLogin%3FPublicAccess%3Dtrue\">Don&#x27;t
+        remember your member number? By Phone Call USA: 1-800-258-2464 AU: 1 800 464
+        258 NZ: 800 464 258 India: 1-800-102-6180. FAQ</a>\n            \n\n            <div
+        style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n
+        \ \n\n\n            <div class=\"result results_links results_links_deep web-result
+        \">\n\n\n          <div class=\"links_main links_deep result__body\"> <!--
+        This is the visible part -->\n\n          <h2 class=\"result__title\">\n          \n
+        \           <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FEffortless%2DEnglish%2DLearn%2DSpeak%2DNative%2Fdp%2F1942250002\">Effortless
+        English: Learn To Speak English Like A Native</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FEffortless%2DEnglish%2DLearn%2DSpeak%2DNative%2Fdp%2F1942250002\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.amazon.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FEffortless%2DEnglish%2DLearn%2DSpeak%2DNative%2Fdp%2F1942250002\">\n
+        \                 www.amazon.com/Effortless-English-Learn-Speak-Native/dp/1942250002\n
+        \                 </a>\n\n                  \n\n                </div>\n            </div>\n\n
+        \           \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FEffortless%2DEnglish%2DLearn%2DSpeak%2DNative%2Fdp%2F1942250002\">A.J.
+        <b>Hoge</b> A.J. <b>Hoge</b> is the host of The Effortless English Show with
+        over 41 million downloads worldwide. He is famous for training executives,
+        professionals, and government officials to speak English successfully.</a>\n
+        \           \n\n            <div style=\"clear: both\"></div>\n          </div>\n\n
+        \       </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links
+        results_links_deep web-result \">\n\n\n          <div class=\"links_main links_deep
+        result__body\"> <!-- This is the visible part -->\n\n          <h2 class=\"result__title\">\n
+        \         \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fapps.dtic.mil%2Fdtic%2Ftr%2Ffulltext%2Fu2%2Fa547365.pdf\"><span
+        class=\"result__type\">PDF</span> Helicopter <b>Hoge</b> Capability Assessment
+        Through Climatology ...</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fapps.dtic.mil%2Fdtic%2Ftr%2Ffulltext%2Fu2%2Fa547365.pdf\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/apps.dtic.mil.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fapps.dtic.mil%2Fdtic%2Ftr%2Ffulltext%2Fu2%2Fa547365.pdf\">\n
+        \                 apps.dtic.mil/dtic/tr/fulltext/u2/a547365.pdf\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fapps.dtic.mil%2Fdtic%2Ftr%2Ffulltext%2Fu2%2Fa547365.pdf\">destruction
+        notice for classified documents, follow the procedures in dod 5200.22-m, industrial
+        security manual, section ii-19 or dod 5200.1-r, information security program
+        regulation,</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FUgly%2DRobert%2DHoge%2Fdp%2F0425287777\">Ugly:
+        Robert <b>Hoge</b>: 9780425287774: Amazon.com: Books</a>\n          \n          </h2>\n\n
+        \     \n\n            <div class=\"result__extras\">\n                <div
+        class=\"result__extras__url\">\n                  <span class=\"result__icon\">\n
+        \                   \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FUgly%2DRobert%2DHoge%2Fdp%2F0425287777\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.amazon.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FUgly%2DRobert%2DHoge%2Fdp%2F0425287777\">\n
+        \                 www.amazon.com/Ugly-Robert-Hoge/dp/0425287777\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.amazon.com%2FUgly%2DRobert%2DHoge%2Fdp%2F0425287777\">Ugly
+        [Robert <b>Hoge</b>] on Amazon.com. *FREE* shipping on qualifying offers.
+        This true story of an ordinary boy with an extraordinary face is perfect for
+        fans of Wonder— now with exclusive paperback content! When Robert <b>Hoge</b>
+        was born</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmaryhoge.wisd.us%2F\">Home - Mary
+        <b>Hoge</b> Middle School</a>\n          \n          </h2>\n\n      \n\n            <div
+        class=\"result__extras\">\n                <div class=\"result__extras__url\">\n
+        \                 <span class=\"result__icon\">\n                    \n                      <a
+        rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmaryhoge.wisd.us%2F\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/maryhoge.wisd.us.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmaryhoge.wisd.us%2F\">\n
+        \                 maryhoge.wisd.us\n                  </a>\n\n                  \n\n
+        \               </div>\n            </div>\n\n            \n                  <a
+        class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fmaryhoge.wisd.us%2F\">Mary
+        <b>Hoge</b> Middle School&#x27;s Location. 2302 N International Blvd. Weslaco,
+        Texas 78596</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result
+        results_links results_links_deep web-result \">\n\n\n          <div class=\"links_main
+        links_deep result__body\"> <!-- This is the visible part -->\n\n          <h2
+        class=\"result__title\">\n          \n            <a rel=\"nofollow\" class=\"result__a\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCTjuaoHtIJPs8TPJOFPisTw\">hogeveluwe
+        - YouTube</a>\n          \n          </h2>\n\n      \n\n            <div class=\"result__extras\">\n
+        \               <div class=\"result__extras__url\">\n                  <span
+        class=\"result__icon\">\n                    \n                      <a rel=\"nofollow\"
+        href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCTjuaoHtIJPs8TPJOFPisTw\">\n
+        \                       <img class=\"result__icon__img\" width=\"16\" height=\"16\"
+        alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.youtube.com.ico\"
+        name=\"i15\" />\n                      </a>\n                  \n                  </span>\n\n
+        \                 <a class=\"result__url\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCTjuaoHtIJPs8TPJOFPisTw\">\n
+        \                 www.youtube.com/channel/UCTjuaoHtIJPs8TPJOFPisTw\n                  </a>\n\n
+        \                 \n\n                </div>\n            </div>\n\n            \n
+        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCTjuaoHtIJPs8TPJOFPisTw\">Kijk
+        mee via onze livecamera. Is er nog wild te spotten? Live now; Popular uploads
+        Play all</a>\n            \n\n            <div style=\"clear: both\"></div>\n
+        \         </div>\n\n        </div>\n\n  \n\n\n\n\n        \n        \n                <div
+        class=\"nav-link\">\n        <form action=\"/html/\" method=\"post\">\n          <input
+        type=\"submit\" class='btn btn--alt' value=\"Next\" />\n          <input type=\"hidden\"
+        name=\"q\" value=\"hoge\" />\n          <input type=\"hidden\" name=\"s\"
+        value=\"30\" />\n          <input type=\"hidden\" name=\"nextParams\" value=\"\"
+        />\n          <input type=\"hidden\" name=\"v\" value=\"l\" />\n          <input
+        type=\"hidden\" name=\"o\" value=\"json\" />\n          <input type=\"hidden\"
+        name=\"dc\" value=\"30\" />\n          <input type=\"hidden\" name=\"api\"
+        value=\"/d.js\" />\n\n            \n            \n        \n          <input
+        name=\"kl\" value=\"us-en\" type=\"hidden\" />\n            \n            \n
+        \           \n            \n            \n        </form>\n                </div>\n
+        \       \n\n\n\n        <div class=\" feedback-btn\">\n            <a rel=\"nofollow\"
+        href=\"/feedback.html\" target=\"_new\">Feedback</a>\n        </div>\n        <div
+        style=\"clear:both;\"></div>\n  </div>\n  </div> <!-- links wrapper //-->
+        \n\n    \n\n\n\n    </div>\n  </div>\n\n\n\n\n    <div id=\"bottom_spacing2\"></div>\n\n
+        \   \n      <img src=\"/t/sl_h\"/>\n    \n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 10 Mar 2019 13:31:39 GMT
+recorded_with: VCR 4.0.0
