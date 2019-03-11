@@ -1,5 +1,6 @@
 # ahiru
 
+[![Gem version](https://img.shields.io/gem/v/ahiru.svg)](https://rubygems.org/gems/ahiru)
 [![Build Status](https://travis-ci.org/ninoseki/ahiru.svg?branch=master)](https://travis-ci.org/ninoseki/ahiru)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/ahiru/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/ahiru?branch=master)
 
