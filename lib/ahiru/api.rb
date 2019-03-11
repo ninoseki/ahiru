@@ -2,6 +2,7 @@
 
 require "http"
 require "oga"
+require "uri"
 
 module Ahiru
   class API
@@ -20,8 +21,23 @@ module Ahiru
 
     private
 
+    def proxy?
+      proxy != nil
+    end
+
+    def proxy
+      @proxy ||= [].tap do |out|
+        https_proxy = ENV["https_proxy"] || ENV["HTTPS_PROXY"]
+        out << URI(https_proxy) if https_proxy
+      end.first
+    end
+
+    def http
+      proxy? ? HTTP.via(proxy.host, proxy.port) : HTTP
+    end
+
     def get_body(url, params)
-      res = HTTP.get(url, params: params)
+      res = http.get(url, params: params)
       return nil unless res.code == 200
 
       res.body.to_s
